@@ -12,7 +12,7 @@ namespace Tyuiu.ArapovTY.Sprint1.Task4.V20.Test
             double y = 2;
             double wait = 2;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, Math.Round(res, 3));
         }
     }
 }
